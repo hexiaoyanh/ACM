@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/mika/Code/ACM/text/main.cc
+stdio.h
+-
+stdlib.h
+-
+config.h
+-
+MathFunctions.h
+-
+math.h
+-
+
+config.h
+
+math/MathFunctions.h
+
