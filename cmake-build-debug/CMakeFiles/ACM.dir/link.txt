@@ -1,0 +1,1 @@
+/usr/bin/c++  -g  -rdynamic CMakeFiles/ACM.dir/单调栈单调队列/SW.cpp.o  -o ACM 
