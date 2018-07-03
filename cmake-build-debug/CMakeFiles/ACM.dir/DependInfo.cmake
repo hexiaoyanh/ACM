@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/mika/Code/ACM/单调栈单调队列/SW.cpp" "/home/mika/Code/ACM/cmake-build-debug/CMakeFiles/ACM.dir/单调栈单调队列/SW.cpp.o"
+  "/home/mika/Code/ACM/比赛专用/main2.cpp" "/home/mika/Code/ACM/cmake-build-debug/CMakeFiles/ACM.dir/比赛专用/main2.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

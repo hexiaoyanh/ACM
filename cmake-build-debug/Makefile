@@ -123,32 +123,32 @@ ACM/fast:
 	$(MAKE) -f CMakeFiles/ACM.dir/build.make CMakeFiles/ACM.dir/build
 .PHONY : ACM/fast
 
-单调栈单调队列/SW.o: 单调栈单调队列/SW.cpp.o
+比赛专用/main2.o: 比赛专用/main2.cpp.o
 
-.PHONY : 单调栈单调队列/SW.o
+.PHONY : 比赛专用/main2.o
 
 # target to build an object file
-单调栈单调队列/SW.cpp.o:
-	$(MAKE) -f CMakeFiles/ACM.dir/build.make CMakeFiles/ACM.dir/单调栈单调队列/SW.cpp.o
-.PHONY : 单调栈单调队列/SW.cpp.o
+比赛专用/main2.cpp.o:
+	$(MAKE) -f CMakeFiles/ACM.dir/build.make CMakeFiles/ACM.dir/比赛专用/main2.cpp.o
+.PHONY : 比赛专用/main2.cpp.o
 
-单调栈单调队列/SW.i: 单调栈单调队列/SW.cpp.i
+比赛专用/main2.i: 比赛专用/main2.cpp.i
 
-.PHONY : 单调栈单调队列/SW.i
+.PHONY : 比赛专用/main2.i
 
 # target to preprocess a source file
-单调栈单调队列/SW.cpp.i:
-	$(MAKE) -f CMakeFiles/ACM.dir/build.make CMakeFiles/ACM.dir/单调栈单调队列/SW.cpp.i
-.PHONY : 单调栈单调队列/SW.cpp.i
+比赛专用/main2.cpp.i:
+	$(MAKE) -f CMakeFiles/ACM.dir/build.make CMakeFiles/ACM.dir/比赛专用/main2.cpp.i
+.PHONY : 比赛专用/main2.cpp.i
 
-单调栈单调队列/SW.s: 单调栈单调队列/SW.cpp.s
+比赛专用/main2.s: 比赛专用/main2.cpp.s
 
-.PHONY : 单调栈单调队列/SW.s
+.PHONY : 比赛专用/main2.s
 
 # target to generate assembly for a file
-单调栈单调队列/SW.cpp.s:
-	$(MAKE) -f CMakeFiles/ACM.dir/build.make CMakeFiles/ACM.dir/单调栈单调队列/SW.cpp.s
-.PHONY : 单调栈单调队列/SW.cpp.s
+比赛专用/main2.cpp.s:
+	$(MAKE) -f CMakeFiles/ACM.dir/build.make CMakeFiles/ACM.dir/比赛专用/main2.cpp.s
+.PHONY : 比赛专用/main2.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... ACM"
-	@echo "... 单调栈单调队列/SW.o"
-	@echo "... 单调栈单调队列/SW.i"
-	@echo "... 单调栈单调队列/SW.s"
+	@echo "... 比赛专用/main2.o"
+	@echo "... 比赛专用/main2.i"
+	@echo "... 比赛专用/main2.s"
 .PHONY : help
 
 

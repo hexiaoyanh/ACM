@@ -1,6 +1,0 @@
-/home/mika/Code/ACM/text/CMakeFiles/rebuild_cache.dir
-/home/mika/Code/ACM/text/CMakeFiles/Demo.dir
-/home/mika/Code/ACM/text/CMakeFiles/edit_cache.dir
-/home/mika/Code/ACM/text/math/CMakeFiles/rebuild_cache.dir
-/home/mika/Code/ACM/text/math/CMakeFiles/MathFunctions.dir
-/home/mika/Code/ACM/text/math/CMakeFiles/edit_cache.dir

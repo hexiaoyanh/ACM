@@ -57,38 +57,38 @@ include CMakeFiles/ACM.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/ACM.dir/flags.make
 
-CMakeFiles/ACM.dir/单调栈单调队列/SW.cpp.o: CMakeFiles/ACM.dir/flags.make
-CMakeFiles/ACM.dir/单调栈单调队列/SW.cpp.o: ../单调栈单调队列/SW.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mika/Code/ACM/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ACM.dir/单调栈单调队列/SW.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ACM.dir/单调栈单调队列/SW.cpp.o -c /home/mika/Code/ACM/单调栈单调队列/SW.cpp
+CMakeFiles/ACM.dir/比赛专用/main2.cpp.o: CMakeFiles/ACM.dir/flags.make
+CMakeFiles/ACM.dir/比赛专用/main2.cpp.o: ../比赛专用/main2.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mika/Code/ACM/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ACM.dir/比赛专用/main2.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ACM.dir/比赛专用/main2.cpp.o -c /home/mika/Code/ACM/比赛专用/main2.cpp
 
-CMakeFiles/ACM.dir/单调栈单调队列/SW.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ACM.dir/单调栈单调队列/SW.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mika/Code/ACM/单调栈单调队列/SW.cpp > CMakeFiles/ACM.dir/单调栈单调队列/SW.cpp.i
+CMakeFiles/ACM.dir/比赛专用/main2.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ACM.dir/比赛专用/main2.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mika/Code/ACM/比赛专用/main2.cpp > CMakeFiles/ACM.dir/比赛专用/main2.cpp.i
 
-CMakeFiles/ACM.dir/单调栈单调队列/SW.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ACM.dir/单调栈单调队列/SW.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mika/Code/ACM/单调栈单调队列/SW.cpp -o CMakeFiles/ACM.dir/单调栈单调队列/SW.cpp.s
+CMakeFiles/ACM.dir/比赛专用/main2.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ACM.dir/比赛专用/main2.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mika/Code/ACM/比赛专用/main2.cpp -o CMakeFiles/ACM.dir/比赛专用/main2.cpp.s
 
-CMakeFiles/ACM.dir/单调栈单调队列/SW.cpp.o.requires:
+CMakeFiles/ACM.dir/比赛专用/main2.cpp.o.requires:
 
-.PHONY : CMakeFiles/ACM.dir/单调栈单调队列/SW.cpp.o.requires
+.PHONY : CMakeFiles/ACM.dir/比赛专用/main2.cpp.o.requires
 
-CMakeFiles/ACM.dir/单调栈单调队列/SW.cpp.o.provides: CMakeFiles/ACM.dir/单调栈单调队列/SW.cpp.o.requires
-	$(MAKE) -f CMakeFiles/ACM.dir/build.make CMakeFiles/ACM.dir/单调栈单调队列/SW.cpp.o.provides.build
-.PHONY : CMakeFiles/ACM.dir/单调栈单调队列/SW.cpp.o.provides
+CMakeFiles/ACM.dir/比赛专用/main2.cpp.o.provides: CMakeFiles/ACM.dir/比赛专用/main2.cpp.o.requires
+	$(MAKE) -f CMakeFiles/ACM.dir/build.make CMakeFiles/ACM.dir/比赛专用/main2.cpp.o.provides.build
+.PHONY : CMakeFiles/ACM.dir/比赛专用/main2.cpp.o.provides
 
-CMakeFiles/ACM.dir/单调栈单调队列/SW.cpp.o.provides.build: CMakeFiles/ACM.dir/单调栈单调队列/SW.cpp.o
+CMakeFiles/ACM.dir/比赛专用/main2.cpp.o.provides.build: CMakeFiles/ACM.dir/比赛专用/main2.cpp.o
 
 
 # Object files for target ACM
 ACM_OBJECTS = \
-"CMakeFiles/ACM.dir/单调栈单调队列/SW.cpp.o"
+"CMakeFiles/ACM.dir/比赛专用/main2.cpp.o"
 
 # External object files for target ACM
 ACM_EXTERNAL_OBJECTS =
 
-ACM: CMakeFiles/ACM.dir/单调栈单调队列/SW.cpp.o
+ACM: CMakeFiles/ACM.dir/比赛专用/main2.cpp.o
 ACM: CMakeFiles/ACM.dir/build.make
 ACM: CMakeFiles/ACM.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mika/Code/ACM/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ACM"
@@ -99,7 +99,7 @@ CMakeFiles/ACM.dir/build: ACM
 
 .PHONY : CMakeFiles/ACM.dir/build
 
-CMakeFiles/ACM.dir/requires: CMakeFiles/ACM.dir/单调栈单调队列/SW.cpp.o.requires
+CMakeFiles/ACM.dir/requires: CMakeFiles/ACM.dir/比赛专用/main2.cpp.o.requires
 
 .PHONY : CMakeFiles/ACM.dir/requires
 

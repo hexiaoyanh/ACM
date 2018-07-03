@@ -206,6 +206,12 @@ Project_BINARY_DIR:STATIC=/home/mika/Code/ACM/cmake-build-debug
 //Value Computed by CMake
 Project_SOURCE_DIR:STATIC=/home/mika/Code/ACM
 
+//Value Computed by CMake
+线段数_BINARY_DIR:STATIC=/home/mika/Code/ACM/cmake-build-debug
+
+//Value Computed by CMake
+线段数_SOURCE_DIR:STATIC=/home/mika/Code/ACM
+
 
 ########################
 # INTERNAL cache entries

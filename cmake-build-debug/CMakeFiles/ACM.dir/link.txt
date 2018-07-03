@@ -1,1 +1,1 @@
-/usr/bin/c++  -g  -rdynamic CMakeFiles/ACM.dir/单调栈单调队列/SW.cpp.o  -o ACM 
+/usr/bin/c++  -g   CMakeFiles/ACM.dir/比赛专用/main2.cpp.o  -o ACM 
