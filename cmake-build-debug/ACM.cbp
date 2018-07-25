@@ -84,7 +84,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/mika/Code/ACM/比赛专用/main2.cpp">
+		<Unit filename="/home/mika/Code/ACM/线段树/敌兵布阵.cpp">
 			<Option target="ACM"/>
 		</Unit>
 		<Unit filename="/home/mika/Code/ACM/CMakeLists.txt">

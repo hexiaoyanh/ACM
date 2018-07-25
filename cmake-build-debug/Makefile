@@ -39,10 +39,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/mika/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5087.36/bin/cmake/bin/cmake
+CMAKE_COMMAND = /home/mika/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5281.33/bin/cmake/bin/cmake
 
 # The command to remove a file.
-RM = /home/mika/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5087.36/bin/cmake/bin/cmake -E remove -f
+RM = /home/mika/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5281.33/bin/cmake/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /home/mika/Code/ACM/cmake-build-debug
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/home/mika/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5087.36/bin/cmake/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/home/mika/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5281.33/bin/cmake/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -70,7 +70,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/home/mika/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5087.36/bin/cmake/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/home/mika/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5281.33/bin/cmake/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -123,32 +123,32 @@ ACM/fast:
 	$(MAKE) -f CMakeFiles/ACM.dir/build.make CMakeFiles/ACM.dir/build
 .PHONY : ACM/fast
 
-比赛专用/main2.o: 比赛专用/main2.cpp.o
+线段树/敌兵布阵.o: 线段树/敌兵布阵.cpp.o
 
-.PHONY : 比赛专用/main2.o
+.PHONY : 线段树/敌兵布阵.o
 
 # target to build an object file
-比赛专用/main2.cpp.o:
-	$(MAKE) -f CMakeFiles/ACM.dir/build.make CMakeFiles/ACM.dir/比赛专用/main2.cpp.o
-.PHONY : 比赛专用/main2.cpp.o
+线段树/敌兵布阵.cpp.o:
+	$(MAKE) -f CMakeFiles/ACM.dir/build.make CMakeFiles/ACM.dir/线段树/敌兵布阵.cpp.o
+.PHONY : 线段树/敌兵布阵.cpp.o
 
-比赛专用/main2.i: 比赛专用/main2.cpp.i
+线段树/敌兵布阵.i: 线段树/敌兵布阵.cpp.i
 
-.PHONY : 比赛专用/main2.i
+.PHONY : 线段树/敌兵布阵.i
 
 # target to preprocess a source file
-比赛专用/main2.cpp.i:
-	$(MAKE) -f CMakeFiles/ACM.dir/build.make CMakeFiles/ACM.dir/比赛专用/main2.cpp.i
-.PHONY : 比赛专用/main2.cpp.i
+线段树/敌兵布阵.cpp.i:
+	$(MAKE) -f CMakeFiles/ACM.dir/build.make CMakeFiles/ACM.dir/线段树/敌兵布阵.cpp.i
+.PHONY : 线段树/敌兵布阵.cpp.i
 
-比赛专用/main2.s: 比赛专用/main2.cpp.s
+线段树/敌兵布阵.s: 线段树/敌兵布阵.cpp.s
 
-.PHONY : 比赛专用/main2.s
+.PHONY : 线段树/敌兵布阵.s
 
 # target to generate assembly for a file
-比赛专用/main2.cpp.s:
-	$(MAKE) -f CMakeFiles/ACM.dir/build.make CMakeFiles/ACM.dir/比赛专用/main2.cpp.s
-.PHONY : 比赛专用/main2.cpp.s
+线段树/敌兵布阵.cpp.s:
+	$(MAKE) -f CMakeFiles/ACM.dir/build.make CMakeFiles/ACM.dir/线段树/敌兵布阵.cpp.s
+.PHONY : 线段树/敌兵布阵.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... ACM"
-	@echo "... 比赛专用/main2.o"
-	@echo "... 比赛专用/main2.i"
-	@echo "... 比赛专用/main2.s"
+	@echo "... 线段树/敌兵布阵.o"
+	@echo "... 线段树/敌兵布阵.i"
+	@echo "... 线段树/敌兵布阵.s"
 .PHONY : help
 
 

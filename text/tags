@@ -1,0 +1,25 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+Animal	main1.cpp	/^struct Animal$/;"	s	file:
+ENEMY	main1.cpp	/^const int ENEMY = 1;$/;"	v
+FOOD	main1.cpp	/^const int FOOD = 2;$/;"	v
+SAME	main1.cpp	/^const int SAME = 0;$/;"	v
+Union	main1.cpp	/^void Union(int x,int y,int a,int b,int d)$/;"	f
+ani	main1.cpp	/^Animal ani[c0de4fun];$/;"	v
+ans	main1.cpp	/^long ans;$/;"	v
+c0de4fun	main1.cpp	/^const int c0de4fun = 50010;\/\/动物个数的最大值$/;"	v
+findParent	main1.cpp	/^int findParent(Animal* node)$/;"	f
+h	1.py	/^        h=[]$/;"	v
+init_Animal	main1.cpp	/^void init_Animal(int n)$/;"	f
+ll	main2.cpp	11;"	d	file:
+main	main1.cpp	/^int main(void)$/;"	f
+main	main2.cpp	/^int main()$/;"	f
+n	1.py	/^        n=input()$/;"	v
+num	main1.cpp	/^    int num;$/;"	m	struct:Animal	file:
+parent	main1.cpp	/^    int parent;$/;"	m	struct:Animal	file:
+relation	main1.cpp	/^    int relation;$/;"	m	struct:Animal	file:
+ull	main2.cpp	12;"	d	file:

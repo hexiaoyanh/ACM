@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/mika/Code/ACM/比赛专用/main2.cpp
+/home/mika/Code/ACM/线段树/敌兵布阵.cpp
 iostream
 -
 cstring
@@ -20,5 +20,7 @@ cstdio
 queue
 -
 vector
+-
+map
 -
 

@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/ACM.dir/比赛专用/main2.cpp.o"
+  "CMakeFiles/ACM.dir/线段树/敌兵布阵.cpp.o"
   "ACM.pdb"
   "ACM"
 )
