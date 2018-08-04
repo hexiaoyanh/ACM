@@ -123,32 +123,59 @@ ACM/fast:
 	$(MAKE) -f CMakeFiles/ACM.dir/build.make CMakeFiles/ACM.dir/build
 .PHONY : ACM/fast
 
-线段树/敌兵布阵.o: 线段树/敌兵布阵.cpp.o
+text/C.o: text/C.cpp.o
 
-.PHONY : 线段树/敌兵布阵.o
+.PHONY : text/C.o
 
 # target to build an object file
-线段树/敌兵布阵.cpp.o:
-	$(MAKE) -f CMakeFiles/ACM.dir/build.make CMakeFiles/ACM.dir/线段树/敌兵布阵.cpp.o
-.PHONY : 线段树/敌兵布阵.cpp.o
+text/C.cpp.o:
+	$(MAKE) -f CMakeFiles/ACM.dir/build.make CMakeFiles/ACM.dir/text/C.cpp.o
+.PHONY : text/C.cpp.o
 
-线段树/敌兵布阵.i: 线段树/敌兵布阵.cpp.i
+text/C.i: text/C.cpp.i
 
-.PHONY : 线段树/敌兵布阵.i
+.PHONY : text/C.i
 
 # target to preprocess a source file
-线段树/敌兵布阵.cpp.i:
-	$(MAKE) -f CMakeFiles/ACM.dir/build.make CMakeFiles/ACM.dir/线段树/敌兵布阵.cpp.i
-.PHONY : 线段树/敌兵布阵.cpp.i
+text/C.cpp.i:
+	$(MAKE) -f CMakeFiles/ACM.dir/build.make CMakeFiles/ACM.dir/text/C.cpp.i
+.PHONY : text/C.cpp.i
 
-线段树/敌兵布阵.s: 线段树/敌兵布阵.cpp.s
+text/C.s: text/C.cpp.s
 
-.PHONY : 线段树/敌兵布阵.s
+.PHONY : text/C.s
 
 # target to generate assembly for a file
-线段树/敌兵布阵.cpp.s:
-	$(MAKE) -f CMakeFiles/ACM.dir/build.make CMakeFiles/ACM.dir/线段树/敌兵布阵.cpp.s
-.PHONY : 线段树/敌兵布阵.cpp.s
+text/C.cpp.s:
+	$(MAKE) -f CMakeFiles/ACM.dir/build.make CMakeFiles/ACM.dir/text/C.cpp.s
+.PHONY : text/C.cpp.s
+
+最小生成树/A.o: 最小生成树/A.cpp.o
+
+.PHONY : 最小生成树/A.o
+
+# target to build an object file
+最小生成树/A.cpp.o:
+	$(MAKE) -f CMakeFiles/ACM.dir/build.make CMakeFiles/ACM.dir/最小生成树/A.cpp.o
+.PHONY : 最小生成树/A.cpp.o
+
+最小生成树/A.i: 最小生成树/A.cpp.i
+
+.PHONY : 最小生成树/A.i
+
+# target to preprocess a source file
+最小生成树/A.cpp.i:
+	$(MAKE) -f CMakeFiles/ACM.dir/build.make CMakeFiles/ACM.dir/最小生成树/A.cpp.i
+.PHONY : 最小生成树/A.cpp.i
+
+最小生成树/A.s: 最小生成树/A.cpp.s
+
+.PHONY : 最小生成树/A.s
+
+# target to generate assembly for a file
+最小生成树/A.cpp.s:
+	$(MAKE) -f CMakeFiles/ACM.dir/build.make CMakeFiles/ACM.dir/最小生成树/A.cpp.s
+.PHONY : 最小生成树/A.cpp.s
 
 # Help Target
 help:
@@ -159,9 +186,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... ACM"
-	@echo "... 线段树/敌兵布阵.o"
-	@echo "... 线段树/敌兵布阵.i"
-	@echo "... 线段树/敌兵布阵.s"
+	@echo "... text/C.o"
+	@echo "... text/C.i"
+	@echo "... text/C.s"
+	@echo "... 最小生成树/A.o"
+	@echo "... 最小生成树/A.i"
+	@echo "... 最小生成树/A.s"
 .PHONY : help
 
 

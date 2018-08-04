@@ -1,63 +1,69 @@
-//
-// Created by mika on 18-6-12.
-//
+#include <cstdio>
+#include <iostream>
+using namespace std;
+int bugs[2010];
+int relation[2010];
+void init(int len)
+{
+    for(int i = 0;i <= len; i++)
+    {
+        bugs[i] = i;
+        relation[i] = 1;
+    }
+}
+int find(int bug)
+{
+    if(bugs[bug]==bug)
+		return bug;
+    int tem = bugs[bug];
+    bugs[bug] = find(bugs[bug]);
+	relation[bug] = (relation[bug]+relation[tem]+1)%2;
+    return bugs[bug];
+}
 
-#include <stdio.h>
-#include <string.h>
-int fa[2005];
-int rela[2005];
-bool bugs;
-void init(int n)
+void union_set(int a,int b,int x,int y)
 {
-    for(int i=1;i<=n;i++)
-        fa[i]=i,rela[i]=0;
+    bugs[x]=y;
+    relation[x] = (relation[b]-relation[a])%2;
 }
-int find(int x)
-{
-    if(fa[x]!=x) fa[x]=find(fa[x]);
-    return fa[x];
-}
-void uni(int a,int b)
-{
-    int aa=find(a);
-    int bb=find(b);
-    if(aa!=bb)
-        fa[aa]=bb;
-}
+
 int main()
 {
 #ifndef ONLINE_JUDGE
-    freopen("../input.txt","r",stdin);
+	freopen("input.txt","r",stdin);
+	freopen("./output.txt","w",stdout);
 #endif
-    int ncase;
-    int t=1;
-    scanf("%d",&ncase);
-    while(ncase--)
+    int S;
+    int n,inter;
+    int bug1,bug2,parent1,parent2;
+    bool flag;
+	scanf("%d",&S);
+    for(int i=1; i<=S;i++)
     {
-        int n,m;
-        scanf("%d %d",&n,&m);
+        scanf("%d%d",&n,&inter);
+        flag = false;
         init(n);
-        bugs=false;
-        for(int i=0;i<m;i++)
+        for(int j = 1; j <= inter; j++)
         {
-            int x,y;
-            scanf("%d %d",&x,&y);
-            if(!bugs)
+            scanf("%d%d",&bug1,&bug2);
+            if(flag)continue;
+            parent1 = find(bug1);
+            parent2 = find(bug2);
+            if(parent1==parent2)
             {
-                int xx=find(x);
-                int yy=find(y);
-                if(xx==yy) bugs=true;
-                if(rela[x]) uni(rela[x],y);
-                else rela[x]=y;
-                if(rela[y]) uni(rela[y],x);
-                else rela[y]=x;
-            }
-        }
-        printf("Scenario #%d:\n",t++);
-        if(bugs)
-            puts("Suspicious bugs found!\n");
-        else
-            puts("No suspicious bugs found!\n");
+                if(relation[bug1]==relation[bug2])
+				{
+					flag = true;
+					goto aa;
+				}
+			}
+            union_set(bug1,bug2,parent1,parent2);
+        }aa:
+			if(flag)
+				printf("Scenario #%d:\nSuspicious bugs found!\n",i);
+			else
+		        printf("Scenario #%d:\nNo suspicious bugs found!\n",i);
+        printf("\n");
     }
     return 0;
 }

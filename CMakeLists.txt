@@ -2,4 +2,4 @@ cmake_minimum_required(VERSION 3.10)
 
 project(ACM)
 
-add_executable(ACM 线段树/敌兵布阵.cpp)
+add_executable(ACM text/C.cpp 最小生成树/A.cpp 最小生成树/A.h)

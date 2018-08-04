@@ -1,3 +1,8 @@
+/*
+ *Author:Mika
+ *Environment:Ubuntu 18.04
+ *GCC 7.3
+ */
 #include<iostream>
 #include<cstring>
 #include<cmath>
@@ -9,42 +14,19 @@
 
 using namespace std;
 #define ll long long
+#define ull unsigned ll
+
+#define maxn 
+#define fori(a) for(int i=0;i<a;++i)
+#define forni(a) for(int i=a;i>0;--i)
+#define forii(a) for(int i=1;i<=a;++i)
+#define _(i) (i)<<1
+#define __(i) (i)<<1|1
 
 int main()
 {
 #ifndef ONLINE_JUDGE
-	freopen("../input.txt","r",stdin);
+	freopen("input.txt","r",stdin);
 #endif
-	ios::sync_with_stdio(false);
-	ll l,r;
-	int k;
-	while (cin>>l>>r>>k)
-	{
-		map<ll,int>mp;
-		int A[k];
-		for(int i=0;i<k;++i)
-		{
-			cin>>A[i];
-		}
-		for(ll x:A)
-		{
-			ll fst,last;
-			fst=l/x;
-			last=r/x;
-			for(ll i=fst;i<=last;++i)
-			{
-				ll temp=x*i;
-				//cout<<temp<<endl;
-				mp[temp]++;
-			}
-		}
-		ll sum=0;
-		for(ll i=l;i<=r;++i)
-		{
-			if(mp[i]==0)
-				sum++;
-		}
-		cout<<sum<<endl;
-	}
+	
 }
-

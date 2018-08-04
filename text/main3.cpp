@@ -1,21 +1,23 @@
-#include<iostream>
-#include<cstring>
-#include<cmath>
-#include<algorithm>
-#include<cstdio>
-#include<queue>
-#include<vector>
-#include <map>
-
+#include <cstdio>
+#include <cstring>
+#include <algorithm>
+#include <queue>
+#include <iostream>
 using namespace std;
-#define ll long long
-#define ull unsigned ll
 
+struct Edge
+{
+    int from;
+    int next;
+    int to;
+    int val;
+};
+struct point
+{
+    int from;
+    int 
+};
 int main()
 {
-#ifndef ONLINE_JUDGE
-	freopen("../input.txt","r",stdin);
-#endif
-	ios::sync_with_stdio(false);
-	cout<<"Hello 最短路"<<endl;
+
 }

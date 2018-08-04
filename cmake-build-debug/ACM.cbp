@@ -84,7 +84,13 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/mika/Code/ACM/线段树/敌兵布阵.cpp">
+		<Unit filename="/home/mika/Code/ACM/text/C.cpp">
+			<Option target="ACM"/>
+		</Unit>
+		<Unit filename="/home/mika/Code/ACM/最小生成树/A.cpp">
+			<Option target="ACM"/>
+		</Unit>
+		<Unit filename="/home/mika/Code/ACM/最小生成树/A.h">
 			<Option target="ACM"/>
 		</Unit>
 		<Unit filename="/home/mika/Code/ACM/CMakeLists.txt">
